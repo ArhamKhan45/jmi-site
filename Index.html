@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Jamia Millia Islamia</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/5468e71022.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="margin_box">
+      <div class="outer_box">
+        <section class="py-sm-2 custom_nav">
+          <ul class="clearfix ps-0 ps-sm-3">
+            <li>Welcome Guest</li>
+            <li>20 November, 2022</li>
+            <li><strong>Language</strong> : English | Hindi</li>
+            <li class="custom_font_size_nav">
+              <strong>Font Size</strong> : A| A-| A+
+            </li>
+            <li class="clearfix float-end">
+              <p class="float-end">Contact Us</p>
+            </li>
+          </ul>
+        </section>
+        <section class="py-sm-2 px-sm-3 mb-5 container-fluid border-box">
+          <div class="row">
+            <div class="col-4 col-lg-7">
+              <img
+                src="./jmi images/logo.jpg"
+                alt="Jamia Logo"
+                class="img-fluid ms-sm-4 me-sm-4"
+              />
+            </div>
+            <div class="col-3 col-lg-2">
+              <ul class="list-group ms-sm-4 me-sm-1">
+                <li class="list-group-item mb-1 menu-list-fixer" id="home_li">
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    onclick="home_click()"
+                    id="home_a"
+                    >Home</a
+                  >
+                </li>
+                <li class="list-group-item mb-1 menu-list-fixer" id="about_li">
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    onclick="about_click()"
+                    id="about_a"
+                    >About Jamia</a
+                  >
+                </li>
+                <li
+                  class="list-group-item mb-1 menu-list-fixer"
+                  id="study_at_jmi_li"
+                >
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    id="study_at_jmi_a"
+                    onclick="study_click()"
+                  >
+                    Study at Jamia</a
+                  >
+                </li>
+                <li class="list-group-item mb-1 menu-list-fixer">
+                  <a href="#" class="text-decoration-none" id="bulletin_a">
+                    Bulletin Board</a
+                  >
+                </li>
+                <li class="list-group-item mb-1 menu-list-fixer">
+                  <a href="#" class="text-decoration-none" id="uni_report_a"
+                    >University Reports</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-5 col-lg-3 ms-auto mb-5 mb-sm-0 border-box">
+              <div class="border-start border-2 w-200px w-100 social_media_box">
+                <div class="">
+                  <img
+                    src="./jmi images/myGov_banner.jpg"
+                    alt="mygov"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="ps-sm-2 mt-2">
+                  <a href=""><img src="./jmi images/youtube.png" alt="" /></a>
+                  <a href=""><img src="./jmi images/facebook.png" alt="" /></a>
+                  <a href=""><img src="./jmi images/twitter.png" alt="" /></a>
+                  <a href=""><img src="./jmi images/instagram.png" alt="" /></a>
+                  <a href=""><img src="./jmi images/linkedin.png" alt="" /></a>
+                </div>
+                <div class="mt-3">
+                  <input type="radio" name="" id="" class="me-1" /><label
+                    class="me-sm-2 fs-5"
+                    >Jamia</label
+                  >
+                  <input type="radio" name="" id="" class="me-1" /><label
+                    class="me-sm-2 fs-5"
+                    >Web</label
+                  >
+                </div>
+                <input
+                  type="url"
+                  name=""
+                  id=""
+                  class="search_url_size form-control d-inline-block"
+                />
+                <button
+                  class="btn jamia_green_color form-control search_button_size"
+                >
+                  <i class="fas fa-search text-white"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="moving_text w-100 container-fluid">
+          <marquee
+            behavior="alternate"
+            direction="left"
+            class="h4 fw-bolder"
+            onmouseover="stop()"
+            onmouseout="start()"
+            scrollamount="9"
+            >Message from the Hon'ble Vice-Chancellor, JMI on the occasion of
+            Hindi Diwas - 2022</marquee
+          >
+          <marquee
+            behavior="alternate"
+            direction="left"
+            scrollamount="6"
+            onmouseover="stop()"
+            onmouseout="start()"
+            class="h4 fw-bolder"
+          >
+            Admissions 2022-2023
+          </marquee>
+          <marquee
+            behavior="alternate"
+            direction="left"
+            scrollamount="7"
+            onmouseover="stop()"
+            onmouseout="start()"
+            class="h4 fw-bolder"
+          >
+            Online Fee Payment (Distance Programs)
+          </marquee>
+          <div class="animation_box1">
+            <p class="h4 fw-bolder moving_tex" id="mymarquee1">
+              MSc. in Virology 2022-23,
+            </p>
+          </div>
+        </section>
+        <!-- carusoul -->
+        <section
+          class="border border-bottom-4 border-top-4 py-3 mt-2 mb-4 container-fluid"
+        >
+          <div class="row px-lg-4">
+            <div class="col-3 ms-auto" id="img_div_0"></div>
+            <div class="col-3 ms-auto" id="img_div_1"></div>
+            <div class="col-3 ms-auto" id="img_div_2"></div>
+            <div class="col-3 ms-auto" id="img_div_3"></div>
+          </div>
+        </section>
+        <section class="px-sm-4 container-fluid border">
+          <div class="row">
+            <div class="col-2 col-lg-2 border-end">
+              <!-- About Jamia section -->
+              <p class="h4 border-bottom border-bottom-2 fw-bold">
+                About Jamia
+              </p>
+              <ul class="list-group leftlink">
+                <li class="list-group-item border border-0">Profile</li>
+                <li class="list-group-item border border-0">Officers</li>
+                <li class="list-group-item border border-0">Authorities</li>
+                <li class="list-group-item border border-0">faculties</li>
+                <li class="list-group-item border border-0">Department</li>
+                <li class="list-group-item border border-0">Centres</li>
+                <li class="list-group-item border border-0">Schools</li>
+                <li class="list-group-item border border-0">
+                  International Relations
+                </li>
+                <li class="list-group-item border border-0">Act & Statutes</li>
+                <li class="list-group-item border border-0">
+                  Prof. Shafeeque Ahmad Ansari IQAC
+                </li>
+                <li class="list-group-item border border-0">
+                  Visitor's Nominees
+                </li>
+                <li class="list-group-item border border-0">NAAC SSR 2020</li>
+                <li class="list-group-item border border-0">
+                  Admission & Examination
+                </li>
+                <li class="list-group-item border border-0">
+                  Residential Coaching Academy (CCCP)
+                </li>
+              </ul>
+              <!-- Study at Jamia section -->
+              <p class="h4 border-bottom border-bottom-2 mt-3 fw-bold">
+                Study at Jamia
+              </p>
+              <ul class="list-group leftlink">
+                <li class="list-group-item border border-0">
+                  <a href="">Programmes / Courses</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Distance Learning Programme</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Admissions</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Examinations</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Research</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Hostels</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Foreign Students Info</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Fellowships and Scholarships</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">e-Learning Resources</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Library Remote Access</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> University Library</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">University Placement Cell</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">NCC</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">NSS</a>
+                </li>
+
+                <li class="list-group-item border border-0">
+                  <a href="">Games and Sports</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Students' Helpdesk</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Jamia Alumni Connect</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">StartupJMI</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> SAIF Corner</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">PMRF</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">ARIIA 2021</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">GATI</a>
+                </li>
+              </ul>
+              <!-- Bulletin Board  section -->
+              <p class="h4 border-bottom border-bottom-2 mt-3 fw-bold">
+                Bulletin Board
+              </p>
+              <ul class="list-group leftlink">
+                <li class="list-group-item border border-0">
+                  <a href="">Academic Calendar</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Jobs | Tenders</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Events</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Notices/Office orders/Circulars</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Outreach Programme</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Publications</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Infrastructure</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Press Releases</a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">University Journals</a>
+                </li>
+              </ul>
+              <!-- University Reports section -->
+              <p class="h4 border-bottom border-bottom-2 mt-3 fw-bold">
+                Bulletin Board
+              </p>
+              <ul class="list-group leftlink">
+                <li class="list-group-item border border-0">
+                  <a href="">NAAC Reports </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Annual Reports </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Financial Reports </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> UGC/Statistical Data Fact Sheet </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">Other Reports</a>
+                </li>
+              </ul>
+              <!-- Right to Information section -->
+              <p class="h4 border-bottom border-bottom-2 mt-3 fw-bold">
+                Right to Information
+              </p>
+              <ul class="list-group leftlink">
+                <li class="list-group-item border border-0">
+                  <a href="">Names of CPIO & FAA </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Notifications/Circular under RTI Act </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> RTI Act, 2005 </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> DoPT Guide on RTI </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Manuals of RTI </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">
+                    Right to Information and Obligations of Public Authorities
+                  </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Link to RTI Citizen Gateway </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Important court judgements </a>
+                </li>
+              </ul>
+              <!-- Other Information section -->
+              <p class="h4 border-bottom border-bottom-2 mt-3 fw-bold">
+                Right to Information
+              </p>
+              <ul class="list-group leftlink">
+                <li class="list-group-item border border-0">
+                  <a href="">Seniority List of Faculty/Staff Members </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Vigilance Corner </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> List of Faculty Members (in Hindi) </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> List of Jamia faculty </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Forms & Proforma </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Complaints Committee </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href=""> Auditorium & Guest House </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">
+                    Medical bill section related forms and list of panelled
+                    hospitals
+                  </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">
+                    Format for Notice Limited Tender Enquiry / Notice Inviting
+                    Quotations.
+                  </a>
+                </li>
+                <li class="list-group-item border border-0">
+                  <a href="">
+                    Online Complaint Registration System (Building &
+                    Construction Deptt.)
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-5 px-lg-4 border-end container-fluid">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <img
+                    src="./jmi images/jmi_vc.jpg"
+                    alt=""
+                    srcset=""
+                    class="img-fluid ms-auto h-75"
+                  />
+                </div>
+                <div class="col-6 col-md-9">
+                  <p class="fs-12px fw-bold">Vice-Chancellor's Message</p>
+                  <p class="text-justify fs-12px">
+                    Jamia Millia Islamia made a modest beginning in 1920 at
+                    Aligarh, with the resolute determination of its founding
+                    members--Shaikhul Hind Maulana Mahmud Hasan, Maulana
+                    Muhammad Ali Jauhar, Jenab Hakim Ajmal Khan, Dr. Mukhtar
+                    Ahmad Ansari, Jenab Abdul Majeed Khwaja, and Dr. Zakir
+                    Hussain to create an institution that would manifest
+                    indigenous ethos and spirit of plurality....
+                  </p>
+                </div>
+              </div>
+              <div class="clearfix">
+                <p class="float-end fs-12px jamia_green_textcolor fw-bolder">
+                  Read more
+                </p>
+              </div>
+              <!-- carusoul section -->
+              <section
+                class="border border-1 border-end-0 border-start-0 border-dark"
+                style="height: 176px"
+              >
+                <div
+                  id="carouselExampleDark"
+                  class="carousel carousel-dark slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators slider_button_position">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="0"
+                      class="active circle_button"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                      class="circle_button"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                      class="circle_button"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="3"
+                      aria-label="Slide 4"
+                      class="circle_button"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="4"
+                      aria-label="Slide 5"
+                      class="circle_button"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="5"
+                      aria-label="Slide 6"
+                      class="circle_button"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="6"
+                      aria-label="Slide 7"
+                      class="circle_button"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleDark"
+                      data-bs-slide-to="7"
+                      aria-label="Slide 8"
+                      class="circle_button"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                      <img
+                        src="./jmi images/carusoul1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="./jmi images/carusoul2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="./jmi images/carusoul3.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="./jmi images/carusoul4.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="./jmi images/carusoul5.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="./jmi images/carusoul6.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="./jmi images/carusoul7.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img
+                        src="./jmi images/carusoul8.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </section>
+              <!-- Press Releases section -->
+
+              <p class="h4 fw-bolder mt-lg-5">Press Releases</p>
+              <label class="fs-12px fw-bold">
+                JMI orgnaises International Conference on Recent Advances in
+                Computer Science and Engineering </label
+              ><br />
+              <label class="fs-12px">28 November, 2022</label><br />
+              <label class="fs-12px jamia_green_textcolor fw-bold"
+                >Read More</label
+              >
+              <hr class="my-4" />
+
+              <label class="h5 fw-bold">
+                JMI commemorates Constitution Day 2022</label
+              ><br />
+              <label class="fs-12px">28 November, 2022</label><br />
+              <label class="fs-12px jamia_green_textcolor fw-bold"
+                >Read More</label
+              >
+              <hr class="mt-3" />
+              <div class="clearfix">
+                <button
+                  class="fs-12px green-white fw-bold border-0 pe-3 ps-1 float-end"
+                >
+                  More...
+                </button>
+              </div>
+              <!-- Press Releases section End -->
+              <!-- Events section  -->
+              <p class="h4 fw-bold border-bottom border-dark">Events</p>
+              <label class="fs-12px fw-bold"
+                >International Conference on Recent Advances in Electrical,
+                Electronics & Digital Healthcare Technologies, 2023
+                (REEDCON2023)</label
+              >
+              <br />
+              <label class="fs-12px">28 November, 2022</label><br />
+              <hr />
+
+              <label class="fs-12px fw-bold">
+                National Seminar on Bharat: Vishva Guru in Yoga Education
+                Organised by Department of Teacher Training & Non-formal
+                Education</label
+              >
+              <br />
+              <label class="fs-12px">28 November, 2022</label><br />
+              <hr />
+
+              <label class="fs-12px fw-bold"
+                >HORIZON-2100: International Youth Competition of Scientific,
+                Scientific-Practical and Sci-Fi Works</label
+              >
+              <br />
+              <label class="fs-12px">28 November, 2022</label><br />
+              <hr />
+
+              <label class="fs-12px fw-bold"
+                >Webinar on E-Literature: Explorations in Literary Creativity
+                organised by the Dept. of English</label
+              >
+              <br />
+              <label class="fs-12px">28 November, 2022</label><br />
+              <hr />
+
+              <label class="fs-12px fw-bold"
+                >E-LITERATURE: EXPLORATIONS IN LITERARY CREATIVITY</label
+              >
+              <br />
+              <label class="fs-12px">28 November, 2022</label><br />
+              <div class="clearfix">
+                <button
+                  class="fs-12px green-white fw-bold border-0 pe-3 ps-1 float-end"
+                >
+                  More...
+                </button>
+              </div>
+              <!-- Events section End -->
+              <!-- study at jamia section starts  -->
+
+              <p class="h4 fw-bold border-bottom border-dark container-fluid">
+                Study at Jamia
+              </p>
+              <div class="row pb-2">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/std_at_jmi1.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Programmes / Courses</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25 mx-auto">
+                  <img
+                    src="./jmi images/distance-learning-img120160607172859_.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Distance Learning Programme</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/addmission20110131132138_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Admissions</label>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/fanancial20110412111945_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Examinations</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25 mx-auto">
+                  <img
+                    src="./jmi images/Research20110131132502_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Research</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/hostel20110131132247_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Hostels</label>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/student_icon20110131132417_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Foreign Students Info</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25 mx-auto">
+                  <img
+                    src="./jmi images/scholarship20120117180957_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Fellowships and Scholarships</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/eLearning_Icon_med20110131132323_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">e-Learning Resources</label>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/online-class-room20110131132432_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Library Remote Access</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25 mx-auto">
+                  <img
+                    src="./jmi images/library20110131132306_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">University Library</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/placements20110131132449_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">University Placement Cell</label>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/NCC20150319125117_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  /><br />
+                  <label class="fs-12px">NCC</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25 mx-auto">
+                  <img
+                    src="./jmi images/nss20150319124628_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  /><br />
+                  <label class="fs-12px">NSS</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/uwic_sport20111129130157_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">Games and Sports</label>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/1421857645_user_accounts_help20150121160208_l.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  /><br />
+                  <label class="fs-12px"> Students' Helpdesk</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25 mx-auto">
+                  <img
+                    src="./jmi images/alumni20151028184652_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  /><br />
+                  <label class="fs-12px"> Jamia Alumni Connect </label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/SJMI20220331185225_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <p class="fs-12px">StartupJMI</p>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/SC20220331185321_l.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  /><br />
+                  <label class="fs-12px">SAIF Corner</label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25 mx-auto">
+                  <img
+                    src="./jmi images/pmrf-logo-202020211112163124_l.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  /><br />
+                  <label class="fs-12px">PMRF </label>
+                </div>
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/ARIIA202120211112162026_l.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                  <label class="fs-12px">ARIIA 2021</label>
+                </div>
+              </div>
+              <div class="row pb-2 mb-5">
+                <div class="col-4 text-center mt-3 w-25">
+                  <img
+                    src="./jmi images/gati20220209163139_l.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  /><br />
+                  <label class="fs-12px">GATI</label>
+                </div>
+              </div>
+              <!-- study at jamia section Ends  -->
+              <!-- 9 IMAGES SECTION START -->
+
+              <div class="row mb-4">
+                <div class="col-3 mt-5">
+                  <img
+                    src="./jmi images/nad-gov.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+                <div class="col-3 mt-5">
+                  <img
+                    src="./jmi images/swayam-gov.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+                <div class="col-3 mt-5">
+                  <img
+                    src="./jmi images/vlab-co.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+                <div class="col-3 mt-5">
+                  <img
+                    src="./jmi images/gian-jmi.jpg"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-3">
+                  <img
+                    src="./jmi images/CyberDost.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+                <div class="col-3">
+                  <img
+                    src="./jmi images/cybercrime.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+                <div class="col-3">
+                  <img
+                    src="./jmi images/ARIIA2021.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+                <div class="col-3">
+                  <img
+                    src="./jmi images/ncwlogo.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img
+                    src="./jmi images/logo_Academic_Bank_of_Credits.png"
+                    alt=""
+                    class="img-fluid border rounded p-sm-2"
+                  />
+                </div>
+              </div>
+              <!-- 9 IMAGES SECTION START -->
+            </div>
+            <!-- Latest Notice/Circulars/Orders & Events section -->
+            <div class="col-5 col-md-4">
+              <p
+                class="h4 border-bottom border-bottom-2 green-white fw-bold p-sm-1"
+              >
+                Latest Notice/Circulars /Orders & Events
+              </p>
+              <ul class="list-group rightlink">
+                <li class="list-group-item border border-0">
+                  Message from the Hon'ble Vice-Chancellor, JMI on the occasion
+                  of Hindi Diwas - 2022
+                </li>
+                <li class="list-group-item border border-0">
+                  Admissions 2022-2023
+                </li>
+                <li class="list-group-item border border-0">
+                  Online Fee Payment (Distance Programs)
+                </li>
+                <li class="list-group-item border border-0">
+                  Regarding Exhibition on Sardar Patel - The Architect of
+                  Unification and other activities
+                </li>
+                <li class="list-group-item border border-0">
+                  JMI calls for Applications for Admission to short-term
+                  Online/Offline Courses
+                </li>
+                <li class="list-group-item border border-0">
+                  List of documents required for BDS Course Admission 2022-23 )
+                </li>
+                <li class="list-group-item border border-0">
+                  MSc. in Virology 2022-23
+                </li>
+                <li class="list-group-item border border-0">
+                  Nation Building and NCC CBCS UG Course
+                </li>
+                <li class="list-group-item border border-0">
+                  International Conference on Recent Advances in Electrical,
+                  Electronics & Digital Healthcare Technologies, 2023
+                  (REEDCON2023) (Technically Co-Sponsored by IEEE Delhi Section)
+                </li>
+                <li class="list-group-item border border-0">
+                  International Conference on Nanotechnology; Opportunities and
+                  Challenges (ICNOC 2022
+                </li>
+                <li class="list-group-item border border-0">
+                  If complainants fail to get redress to Grievances from Jamia
+                  Millia Islamia, they can approach Directorate of Public
+                  Grievance (DPG) at https://dpg.gov.in for redress of grievance
+                </li>
+                <li class="list-group-item border border-0">
+                  International Conference on Recent Advances in Computer
+                  Science and Engineering (ICRACSE-2022)
+                </li>
+                <li class="list-group-item border border-0">
+                  JMI Schools and CBSE Schools to share admission reciprocity
+                </li>
+                <li class="list-group-item border border-0">
+                  Invitation to participate in a Cyber Security Hackathon
+                </li>
+                <li class="list-group-item border border-0">
+                  Cyber Jagrookta (Awareness) Diwas
+                </li>
+                <li class="list-group-item border border-0">
+                  To receive Cyber Security & Safety updates, please subscribe
+                  to @Cyberdost twitter handle of Ministry of Home Affairs
+                </li>
+                <li class="list-group-item border border-0">
+                  National Cyber Crime Reporting Portal
+                </li>
+                <li class="list-group-item border border-0">
+                  JMI MHRD-GIAN Portal
+                </li>
+                <li class="list-group-item border border-0">
+                  Online Fee Payment (Regular Programs)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <footer class="px-5 border-top">
+          <p class="fs-11px mb-0 mt-3">
+            Seniority List of Faculty/Staff Members | Sitemap | Route Map |
+            Copyright | Privacy | Tobacco-free Campus | Employees' Association |
+            Elections | List of Authorized Travel Agents | Medical bill
+          </p>
+          <p class="text-center my-0">
+            section related forms and list of panelled hospitals | Jamia Mail
+          </p>
+          <p class="text-center my-0">
+            © 2022 Jamia Millia Islamia. All rights reserved
+          </p>
+          <p class="text-center my-0">
+            Site Designed & Developed by IANS PUBLISHING
+          </p>
+          <div class="clearfix">
+            <p class="float-end fs-12px">
+              <strong>Last Updated on:</strong> November 29, 2022
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
